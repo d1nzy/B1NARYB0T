@@ -30,6 +30,8 @@ Do `b1nzy.info` for an overview of the commands. The info embed will stay up for
 
 `b1nzy.p1ngzy`: Pings b1nzy. Use with caution. Usage in servers that b1nzy is in can result in a ban, ip ban, or account deletion.
 
+`..die`: Kills the bot.
+
 b1nzy will not divide us \#bwndu
 
 [http://takeb1nzyto.space](http://takeb1nzyto.space)
