@@ -13,7 +13,6 @@ let self = new Eris.CommandClient(token, {userAccount: true}, {
         }
     }
 });
-var date = new Date();
 
 self.on("ready", () => {
     console.log("#bwndu");
