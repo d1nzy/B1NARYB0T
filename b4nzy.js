@@ -60,7 +60,7 @@ self.on("messageCreate", (msg) => {
                 text: "Made in Eris by Immo"
               }
             }});
-            setTimeout(function() { self.deleteMessage(msg.channel.id, msg.id) }, 12000);
+            setTimeout(function() { self.deleteMessage(msg.channel.id, msg.id) }, 10000);
         } else if(msg.content === "..die") {
             self.deleteMessage(msg.channel.id, msg.id);
             setTimeout(function() {process.exit(0);}, 500);
