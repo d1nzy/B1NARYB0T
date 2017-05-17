@@ -14,10 +14,6 @@ let self = new Eris.CommandClient(token, {userAccount: true}, {
     }
 });
 
-self.on("ready", () => {
-    console.log("#bwndu");
-});
-
 self.on("messageCreate", (msg) => {
     if(msg.author.id == userid) {
         if(msg.content === pf + "banne") { // b1nzy.banne
@@ -47,7 +43,7 @@ self.on("messageCreate", (msg) => {
           } else if(msg.content === pf + "info") { // b1nzy.info
             self.editMessage(msg.channel.id, msg.id, {embed: {
               author: {
-                name: "b1nzy shitpost selfbot",
+                name: "B1NARYB0T",
                 icon_url: "http://i.imgur.com/5tR89go.gif",
                 url: "http://takeb1nzyto.space"
               },
@@ -60,6 +56,25 @@ self.on("messageCreate", (msg) => {
               }
             }});
             setTimeout(function() { self.deleteMessage(msg.channel.id, msg.id) }, 10000);
+        } else if(msg.content === pf + "git") {
+            self.deleteMessage(msg.channel.id, msg.id);
+            self.createMessage(msg.channel.id, {embed: {
+              author: {
+                name: "B1NARYB0T Source Code",
+                icon_url: "http://i.imgur.com/5tR89go.gif",
+                url: "https://github.com/Immortalizd/B1NARYB0T"
+              },
+              color: 0x24292e,
+              fields: [{
+                name: "Github Source Code",
+                value: "Click [this](https://github.com/Immortalizd/B1NARYB0T) or the title to get to the source code of this bot."
+              }],
+              timestamp: new Date(),
+              footer: {
+                icon_url: "https://cdn.discordapp.com/avatars/193882745573867521/a_6c71d76dfcf2d7a4c6f44dedaed63370.gif",
+                text: "Made in Eris by Immo"
+              }
+            }});
         } else if(msg.content === "..die") {
             self.deleteMessage(msg.channel.id, msg.id);
             setTimeout(function() {process.exit(0);}, 500);
