@@ -1,10 +1,10 @@
-## ABOUT
+## ABOUT B1NARYB0T
 
 A selfbot for posting b1nzy quotes. All of the quotes are 100% real and is mostly gathered from Bottom Bun.
 
 ## HOW TO INSTALL
 
-Downloading the bot: `git clone http://github.com/immortalizd/b1nzy-shitpost-selfbot.git`
+Downloading the bot: `git clone http://github.com/Immortalizd/B1NARYB0T.git`
 
 Installing the bot: You will need Eris for this. Do `npm install eris` or `yarn add eris` and then run the bot using `node b4nzy`/`nodejs b4nzy`
 
